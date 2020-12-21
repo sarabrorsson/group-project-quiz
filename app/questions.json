@@ -1,0 +1,50 @@
+{
+  "quizId": "1",
+  "questions": [
+    {
+      "questionId": "0",
+      "questionString": "First President of US?",
+      "possibleAnswers": ["Barrack", "Osama", "George", "Monkey"],
+      "correctAnswer": "George"
+    },
+    {
+      "questionId": "1",
+      "questionString": "When was Javascript created?",
+      "possibleAnswers": ["June 1995", "May 1995", "July 1885", "Sep 1995"],
+      "correctAnswer": "Sep 1995"
+    },
+    {
+      "questionId": "2",
+      "questionString": "What does CSS stand for?",
+      "possibleAnswers": [
+        "County Sheriff Service",
+        "Cascading sexy sheets",
+        "Cascading Style Scheets"
+      ],
+      "correctAnswer": "Cascading Style Scheets"
+    },
+    {
+      "questionId": "3",
+      "questionString": "The full form of HTML is...",
+      "possibleAnswers": [
+        "Hyper Text Markup Language",
+        "Hold The Mic",
+        "ERROR"
+      ],
+      "correctAnswer": "Hyper Text Markup Language"
+    },
+    {
+      "questionId": "4",
+      "questionString": "console.log(typeof []) would return what?)",
+      "possibleAnswers": ["Array", "object", "Null", "array"],
+      "correctAnswer": "object"
+    },
+
+    {
+      "questionId": "5",
+      "questionString": "",
+      "possibleAnswers": [],
+      "correctAnswer": ""
+    }
+  ]
+}

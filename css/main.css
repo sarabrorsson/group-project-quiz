@@ -1,0 +1,73 @@
+#cardStyle {
+  background-color: #f6f6f6;
+}
+
+.optionText {
+  font-family: Helvetica;
+  font-size: 1em;
+  color: #6c757d;
+}
+​​ .btn-outline-dark {
+  border-radius: 0;
+}
+
+/* input radio */
+.card-answer {
+  opacity: 0;
+}
+
+.card-answer {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.card-answer + .card-answer-label:before {
+  content: '';
+  background: #fff;
+  border: 2px solid #f2a72c;
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  padding: 2px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.card-answer + .card-answer-label:before {
+  border-radius: 50%;
+}
+
+.card-answer:checked + .card-answer-label:before {
+  content: '\f00c';
+  font-family: 'FontAwesome';
+  color: #fff;
+  background-color: #f2a72c;
+}
+
+.card-answer:focus + .card-answer-label {
+  outline: 1px solid #ddd; /* focus style */
+}
+
+.hidden {
+  display: none;
+}
+
+.btn {
+  width: 50%;
+  border-color: #f2a72c;
+  transition: ease-in 0.3s;
+}
+
+.btn:hover {
+  background-color: #d8d6d6;
+  border-color: #f2a72c;
+  color: black;
+  width: 52%;
+  transition: ease-out 0.3s;
+}
+#restart {
+  display: none;
+}
